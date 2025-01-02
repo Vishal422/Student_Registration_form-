@@ -67,7 +67,7 @@ def add_header(response):
 
 @app.route('/')
 def register():
-    return render_template('register.html')
+    return render_template('index.html')
 
 @app.route('/register', methods=['POST'])
 def register_student():
